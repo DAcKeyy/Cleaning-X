@@ -1,0 +1,88 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.65;
+    overflow: hidden;
+    opacity: 1;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    margin: 32px auto;
+    max-width: 85%;
+    display: flex;   
+    padding-bottom: 6px;
+}
+
+header .logo {
+    max-width: 250px;
+}
+
+header .menu_top {
+    list-style-type: none;
+}
+
+header .menu_top li {
+    display: inline-block;
+    margin-right: 75px  ;
+}
+
+header .menu_top li a {
+    display: block;
+    text-decoration: none;
+    color: #211F54;
+    font-size: 18px;
+    font-weight: 600;
+    transition: color .4s ease;
+}
+ 
+header .menu_top li a:hover {
+    color: #5f95e6;
+}
+
+header .buttons {
+    text-align: right;
+}
+
+header .button_exude {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding: 9px 24px;
+
+}
+.button_exude {
+    background-color: #0075FF;
+    transition: background-color .4s ease;
+}
+
+.button_exude:hover {
+    background-color: #4c00ff;
+}
+
+.button_shopingcard {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #211F54;
+    transition: color .4s ease;
+}
+
+.button_shopingcard:hover {
+    color: #5f95e6;
+}
