@@ -2,7 +2,7 @@ html, body {
     height: 100%;
 }
 
-body {
+body.body {
     font-family: "Roboto", sans-serif;
     font-size: 18px;
     line-height: 1.667em;
@@ -13,13 +13,23 @@ body {
     opacity: 1;
 }
 
-img {
+img.image {
     height: auto;
     vertical-align: middle;
     border: 0;
 }
 
-a {
+img.logo__picture {
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+}
+
+a.logo {
+    text-decoration: none;
+}
+
+a.navlink {
     text-decoration: none;
 }
 
@@ -33,7 +43,7 @@ h1 {
     font-weight: 700;
 }
 
-section {
+section.block {
     padding-top: 10%;
     padding-bottom: 10%;
     position: relative;
@@ -73,6 +83,10 @@ button {
 
 .button_shopingcard:hover {
     color: #5f95e6;
+}
+
+header.header {
+
 }
 
 header .header-content-wrapper {
