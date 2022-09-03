@@ -1,6 +1,6 @@
 # Cleaning-X
 
-Результат осаивания HTML и Sass.
+Результат осваивания HTML и Sass.
 
 Делал на основании: https://cleaningtemplate.webflow.io/
 
